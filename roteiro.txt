@@ -1,0 +1,27 @@
+Apresentação.
+Explicação dos comandos básicos. (apenas o rebase passar um pouco mais)
+    branch -> como deletar, como criar (passando outra referencia) passar rápido.
+    checkout -> trocar branch e criar branch,  passar rápido
+    commit -> só falar rapidinho das opções.
+    Fetch -> --all, -p. passar rápido
+    merge -> passar rápido. (--ff-only, --no-ff, --no-commit)
+    rebase* -> explicar a diferença do merge e o rebase. Realçar que rebase tem "outras funções".
+    pull -> mostrar como é o pull (fetch + merge) (pull --rebase). passar rápido
+    push -> só falar rapidinho.
+
+Ajeita pra mim (Ainda não dei o push):
+    Emendar um commit, ou corrigir uma mensagem! (commit --amend, --no-edit)
+    Organizar commits, editar, vários commits. (rebase -i)*
+    Eliminar commits (reset)
+
+Copiei o Exercício no Caderno errado!
+    Mover commits de uma branch pra outra (Cherry-pick, rebase-i*)
+
+O Cachorro comeu meu trabalho
+    Recuperando branchs excluídos (git reflog, git reset)
+
+Fui trollar o meu amigo e olha no que deu
+    Desfazendo mudanças que já subiram (git revert)
+
+Dicas para uso do git no terminal
+    Atalhos e Alias (Ex: Logline).

@@ -1,0 +1,6 @@
+Mescla dois branchs através de um "Merge Commit", que é um tipo especial de commit que tem 2 parents.
+Utilizado para manter as alterações realizadas em 2 branchs diferentes, pode ser realizado também com parâmetros opcionais.
+FF-Only: O Merge só acontece ser puder ser realizado com o Fast Forward*.
+No-FF: Não realiza o Fast Forward mesmo quando este é possível.
+No-Commit: Aplica todas as mudanças do merge, porém não cria o commit parando onde todos os arquivos estão staged.
+*Fast Forward: Acontece quando o branch de origem está exatamente à frente do destino (tendo X commits Ahead, e 0 commits Behind), nesta situação não é criado um merge commit, mas sim a referência do branch destino é apontada para o último commit do branch origem.
